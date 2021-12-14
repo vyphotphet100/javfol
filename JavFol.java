@@ -47,7 +47,7 @@ public class JavFol {
                 closeBracket = true;
             }
 
-            if (listOfFiles[i].listFiles() != null ||
+            if (listOfFiles[i].listFiles() != null &&
                     listOfFiles[i].listFiles().length != 0)
                 readFolder(listOfFiles[i].listFiles());
             if (closeBracket)
